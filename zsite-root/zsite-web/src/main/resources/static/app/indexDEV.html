@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>资源调查</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- sui css -->
+    <link rel="stylesheet" href="libs/sui/css/sm.min.css">
+    <script type='text/javascript' src='libs/js/zepto/zepto.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='libs/js/zepto/better-dom.js' charset='utf-8'></script>
+    <script type='text/javascript' src='libs/js/zepto/better-details-polyfill.js' charset='utf-8'></script>
+    <!--如果你用到了拓展包中的组件，还需要引用下面两个-->
+
+    <link rel="stylesheet" href="./libs/css/app.css">
+    <link rel="stylesheet" href="./libs/iconfont/iconfont.css">
+    
+  </head>
+  <body onpageshow="showLoading()"  onpagehide="showLoading()">
+    
+    <div id="root"></div>
+
+    <!-- sui js -->
+    <script type='text/javascript' src='libs/sui/js/sm.min.js' charset='utf-8'></script>
+
+    <!-- 编译js -->
+    <script type="text/javascript" src="./build/js/app.js"></script>
+
+    <!-- 自定义配置js -->
+    <script type="text/javascript">
+      //显示进度条
+      function showLoading(){
+        
+      }
+
+      //加载完成
+      $(document).ready(function(){
+        
+        // 初始化
+        $.init()
+        // 关闭SUI的路由发布文件
+        $.config = {
+          router: false
+        }
+ 
+        //自动轮播
+        //$(".swiper-container").swiper({loop : true,pagination : '.swiper-pagination',autoplay: 2000});
+        //console.log('swiper-container log!')
+      });
+      </script>
+
+  </body>
+</html>

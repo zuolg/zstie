@@ -1,0 +1,31 @@
+{
+    "data":[
+        {
+            "id":701,
+            "realname":"张山",
+            "nickname":"张大大",
+            "photo":"../images/icon_poto.png",
+            "phone":"13320533333",
+            "usertype":"01"
+        },
+        {
+            "id":702,
+            "realname":"王五",
+            "nickname":"王大大",
+            "photo":"../images/icon_poto.png",
+            "phone":"13320533333",
+            "usertype":"01"
+        },
+        {
+            "id":703,
+            "realname":"王五3",
+            "nickname":"王大大4",
+            "photo":"../images/icon_poto.png",
+            "phone":"13320533333",
+            "usertype":"01"
+        }
+    ],
+    "code":200,
+    "message":"成员管理",
+    "success":true
+}

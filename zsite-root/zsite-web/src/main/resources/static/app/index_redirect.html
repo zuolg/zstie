@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>林业企业基本情况填报系统</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+   <body>
+    <!-- 自定义配置js -->
+    <script type="text/javascript">
+      //显示进度条
+      function showLoading(){
+        
+      }
+      
+      function GetQueryString(name) {
+    	   var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)","i");
+    	   var r = window.location.search.substr(1).match(reg);
+    	   if (r!=null) return (r[2]); return null;
+      }
+
+      //加载完成
+      var token= GetQueryString("token");
+       window.location.href="/app/?token="+token;
+ 
+      </script>
+  </body>
+</html>

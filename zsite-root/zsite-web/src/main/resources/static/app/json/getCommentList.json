@@ -1,0 +1,31 @@
+{
+    "success":true,
+    "code":200,
+    "message":"获取评论内容成功",
+    "data":[
+        {
+            "id":1,
+            "content":"我是评论内容213",
+            "type":"0",
+            "userID":"123",
+            "userName":"张山",
+            "createtime":"2016-06-22"
+        },
+        {
+            "id":2,
+            "content":"大爷来看看呗",
+            "type":"0",
+            "userID":"2",
+            "userName":"李四",
+            "createtime":"2016-06-22"
+        },
+        {
+            "id":3,
+            "content":"评论内容",
+            "type":"0",
+            "userID":"4",
+            "userName":"王五",
+            "createtime":"2016-06-22"
+        }
+    ]
+}

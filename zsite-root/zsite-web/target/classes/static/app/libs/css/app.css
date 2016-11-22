@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/* -------------CSS 格式化------------ */
+body {
+  font-size: 0.65rem;
+  line-height: 1.2;
+}
+
+.mp0{margin: 0px;padding: 0px;}
+.mp5{margin: 5px 0px 0px 0px;padding: 0px;}
+.bg-f{background: #ffffff;}
+
+/* 蓝色 */
+.c1{color: #00B7FF;}
+/* 猩红 */
+.c2{color: #F06870;}
+/* 橙色 */
+.c3{color: #F29600;}
+/* 灰色 */
+.c4{color: #DBDCDC;}
+/* 蓝色天际 */
+.c5{color: #0092FF;}
+
+/* 黑色 */
+.c0{color: #000;}
+
+details {
+	overflow: hidden;
+	background: #ffffff;
+	display: block;
+    border-bottom: 1px solid #cccccc;
+}
+
+details::before{
+  content="►";
+  margin-left: 0.75rem;
+  margin-top: 0.75rem;
+}
+details[open]::before{
+  content="▼";
+}
+
+details summary {
+	cursor: pointer;
+	padding: 0px;
+	min-height: 1.8rem;
+	position: relative;
+	padding: 0.5rem 0.75rem;
+}
+
+.empty{padding-top: 3rem;padding-bottom:1rem}
+.cart-empty{height: 96px;  line-height: 96px; border: 0px solid #518dca;overflow:hidden; padding: 0px;text-align: center;margin-top: 10px;}
+.cart-empty img{vertical-align:middle;}
+.cart-span{text-align: center;margin-top: 10px;}
+.cart-btn{text-align: center;padding-right: 100px;padding-left: 100px;margin-top: 10px;}
+
+.MyBarBuy{
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0rem;
+  z-index: 10;
+  height: 2.2rem;
+  padding: 0.0rem;
+  background-color: #ffffff;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.myText{
+    min-width: 1rem;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    height: 30px;
+    font-size: 15px;
+    border: 1px solid #cccccc;
+    outline: none;
+    margin-left:10px;
+}
+
+
+.talk {
+  position:relative;
+  padding:10px;
+  margin-right: 5px;
+  min-height:1rem;
+  color:#fff;
+  font-size: 14pt;
+  background:#075698; 
+  /* css3 */
+  background:-webkit-gradient(linear, 0 0, 0 100%, from(#2e88c4), to(#075698));
+  background:-moz-linear-gradient(#2e88c4, #075698);
+  background:-o-linear-gradient(#2e88c4, #075698);
+  background:linear-gradient(#2e88c4, #075698);
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+}
+
+.mybar{
+  background:#54c1ec;
+}
+.mybar::after{
+  height:0px;
+}
+
+.icon-search2:before {
+  content: "&#xe623;";
+}
+
+
+.myul ul li{
+  float:left;
+  padding:"5px";
+  list-style:none;
+  display:block;
+  white-space: nowrap;
+}
+
+.closeLayer{
+  z-index: 99;
+  position:relative;
+  left:-5px;
+  top:-40px;
+}

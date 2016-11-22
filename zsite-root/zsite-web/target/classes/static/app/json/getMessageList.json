@@ -1,0 +1,55 @@
+{
+    "success":true,
+    "code":200,
+    "message":"操作成功",
+    "data":
+        {
+            "id":999999,
+            "chatMsg":[
+                {
+                    "id":101,
+                    "userFromID":"5001",
+                    "userFromName":"发送人",
+                    "userToName":"李四",
+                    "userToImg":"../images/icon_poto.png",
+                    "createtime":"2016-06-12",
+                    "message":"我是最新聊天内容"
+                },
+                {
+                    "id":102,
+                    "userFromID":"5001",
+                    "userFromName":"发送人",
+                    "userToName":"王五",
+                    "userToImg":"../images/icon_poto.png",
+                    "createtime":"2016-06-12",
+                    "message":"我是最新聊天内容"
+                    
+                }
+            ],
+            "taskMsg":[
+                {
+                    "id":201,
+                    "userFromID":"5001",
+                    "userFromName":"发送人",
+                    "userToName":"王五",
+                    "taskID":10001,
+                    "userToImg":"../images/icon_poto.png",
+                    "createtime":"2016-06-12",
+                    "taskStatus":"02",
+                    "message":"我是发起的什么什么任务名，邀请任务"
+                    
+                },
+                {
+                    "id":202,
+                    "userFromID":"6001",
+                    "userFromName":"发送人",
+                    "userToName":"王五",
+                    "taskID":30001,
+                    "userToImg":"../images/icon_poto.png",
+                    "createtime":"2016-06-12",
+                    "taskStatus":"01",
+                    "message":"我是发起的什么什么任务名，申请加入"
+                }
+            ]
+        }
+}
