@@ -13,13 +13,13 @@
 			<div class="panel-body">
 				<form class="form-inline" action="/" method="post">
 					<div class="form-group">
-						<label>Id:</label> <input type="text" name="id"
-							class="form-control" placeholder="Jane Doe" value="1">
+						<label>userName:</label> <input type="text" name="userName"
+							class="form-control"  placeholder="请输入用户名" value="admin">
 					</div>
 					<div class="form-group">&nbsp;</div>
 					<div class="form-group">
-						<label>username</label> <input type="text" name="username"
-							class="form-control" placeholder="请输入用户名" value="用户1">
+						<label>pwd</label> <input type="text" name="pwd"
+							class="form-control" placeholder="请输入用户名" value="123456">
 					</div>
 					<input type="submit" name="clientBtn" class="btn btn-primary"
 						value="登录客户端" /> <input type="submit" name="devBtn"

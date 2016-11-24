@@ -61,6 +61,12 @@
 			<artifactId>zsite-common</artifactId>
 			<version>${project.version}</version>
 		</dependency>
+
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>zstie-domain</artifactId>
+			<version>${project.version}</version>
+		</dependency>
 		<!-- /和其他子模块的依赖关系 -->
 
 
@@ -70,13 +76,20 @@
 			<artifactId>bootstrap</artifactId>
 			<version>3.3.7</version>
 		</dependency>
-		
+
 		<!-- jquery -->
 		<dependency>
 			<groupId>org.webjars</groupId>
 			<artifactId>jquery</artifactId>
-			<version>3.1.1</version>
+			<version>3.1.0</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>font-awesome</artifactId>
+			<version>4.6.3</version>
+		</dependency>
+		
 
 		<!-- /表单验证 -->
 		<dependency>
@@ -92,6 +105,10 @@
 			<version>1.2.21</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-jta-narayana</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
