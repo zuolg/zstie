@@ -4,3 +4,6 @@
 <script src="/pc/bootstrap/js/bootstrap.min.js"></script>
 <!-- AdminLTE App -->
 <script src="/pc/AdminLTE/js/app.min.js"></script>
+
+<!-- AdminLTE App -->
+<script src="/pc/js/Ajax_Common.js"></script>

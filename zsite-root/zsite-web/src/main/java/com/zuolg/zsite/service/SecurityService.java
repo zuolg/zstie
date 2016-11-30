@@ -9,9 +9,9 @@ import org.springframework.stereotype.Service;
 import com.zuolg.zsite.api.forms.LoginForm;
 import com.zuolg.zsite.exception.InvalidLoginStatusException;
 import com.zuolg.zsite.gen.entity.BaseUser;
-import com.zuolg.zsite.gen.service.BaseUserService;
-import com.zuolg.zsite.logic.BaseUserFactory;
-import com.zuolg.zsite.logic.BaseUserFactory.UserObj;
+import com.zuolg.zsite.gen.service.UserService;
+import com.zuolg.zsite.logic.UserFactory;
+import com.zuolg.zsite.logic.UserFactory.UserObj;
 
 /**
  * <pre>
@@ -87,10 +87,10 @@ public class SecurityService {
 	private final ThreadLocal<UserObj> threadLocalUserObj = new ThreadLocal<UserObj>();
 
 	@Autowired
-	private BaseUserFactory userFactory;
+	private UserFactory userFactory;
 
 	@Autowired
-	private BaseUserService userInfoService;
+	private UserService userInfoService;
 
 	/**
 	 * @param loginForm

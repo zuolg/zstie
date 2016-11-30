@@ -218,6 +218,28 @@
         //console.log('swiper-container log!')
       });
       </script>
+      
+      <script type="text/javascript">
+      	function submit(){
+      		var myData = $('#addEntForm').serializeArray();
+      		var url = $('#myFormAll').attr('action');
+
+      		// 提交数据
+      		com.AjaxPostNoLoader(url, myData, "json", function(result) {
+      			if (typeof (result) == 'string') {
+      				result = JSON.parse(result);
+      			}
+      			if (result.code == '200') {
+      				$("#Button_AddAll").attr("disabled", "disabled");
+      				toast('操作成功！');
+      				window.location.href = "ui_reg_success.jsp";
+      			} else {
+      				var msginfo = com.errorCode(result.code);
+      				toast('操作失败,' + msginfo);
+      			}
+      		});
+      	}
+      </script>
 
   </body>
 </html>

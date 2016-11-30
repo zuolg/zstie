@@ -10,13 +10,13 @@ import com.zuolg.zsite.api.forms.LoginForm;
 import com.zuolg.zsite.api.inf.IUser;
 import com.zuolg.zsite.api.response.UsersResponse;
 import com.zuolg.zsite.gen.entity.BaseUser;
-import com.zuolg.zsite.logic.BaseUserFactory;
+import com.zuolg.zsite.logic.UserFactory;
 
 @Service
 public class UserImpl implements IUser {
 	
 	@Autowired
-	private BaseUserFactory userFactory;
+	private UserFactory userFactory;
 
 	@Override
 	public UsersResponse getUser() throws BaseApiException {

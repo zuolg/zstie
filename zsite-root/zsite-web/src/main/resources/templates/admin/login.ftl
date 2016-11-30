@@ -20,13 +20,13 @@
 	  <div class="login-box-body">
 	    <p class="login-box-msg">后台用户登录</p>
 	
-	    <form action="/admin/login" method="post">
+	    <form action="/admin_login" method="post">
 	      <div class="form-group has-feedback">
 	      <input type="text" name="userName" class="form-control"  placeholder="请输入用户名" value="admin">
 	        <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
 	      </div>
 	      <div class="form-group has-feedback">
-	        <input type="text" name="pwd" class="form-control" placeholder="请输入用户名" value="123456">
+	        <input type="password" name="pwd" class="form-control" placeholder="请输入用户名" value="123456">
 	        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
 	      </div>
 	      <div class="row">
@@ -40,7 +40,7 @@
 	      </div>
 	
 	    <div class="social-auth-links text-center"> 
-	    <input type="submit" name="devBtn" class="btn btn-block btn-social btn-facebook btn-flat" value="登录调试界面" />
+	    	<button type="submit" class="btn btn-block btn-primary btn-lg">登录</button>
 	    </div>
 	    <!-- /.social-auth-links --> 
 	

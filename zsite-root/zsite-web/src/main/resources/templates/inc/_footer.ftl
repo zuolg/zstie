@@ -1,6 +1,9 @@
 <!-- footer -->
- <footer class="main-footer">
-    <strong>Copyright &copy; 2014-2016 <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> All rights
-    reserved.
+<footer class="main-footer">
+    <!-- To the right 
+    <div class="pull-right hidden-xs">
+      Anything you want
+    </div>-->
+    <!-- Default to the left -->
+    <strong>Copyright &copy; 2016 <a href="#">Company</a>.</strong> All rights reserved.
   </footer>
-  <!-- / footer -->

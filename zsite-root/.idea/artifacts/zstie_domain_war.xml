@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="zstie-domain:war">
+    <output-path>$PROJECT_DIR$/zstie-domain/target</output-path>
+    <root id="archive" name="zstie-domain-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="zstie-domain:war exploded" />
+    </root>
+  </artifact>
+</component>

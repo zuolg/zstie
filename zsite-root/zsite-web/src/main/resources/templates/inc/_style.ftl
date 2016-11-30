@@ -8,3 +8,5 @@
   <link rel="stylesheet" href="/pc/AdminLTE/css/AdminLTE.min.css">
   
   <link rel="stylesheet" href="/pc/AdminLTE/css/skins/_all-skins.min.css">
+  
+  <link rel="stylesheet" href="/pc/css/common.css">

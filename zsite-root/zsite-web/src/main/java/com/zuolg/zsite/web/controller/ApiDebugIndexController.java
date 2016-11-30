@@ -14,7 +14,7 @@ import org.springframework.web.servlet.view.RedirectView;
 
 import com.zuolg.commons.utils.BinderUtil;
 import com.zuolg.zsite.api.forms.LoginForm;
-import com.zuolg.zsite.logic.BaseUserFactory.UserObj;
+import com.zuolg.zsite.logic.UserFactory.UserObj;
 import com.zuolg.zsite.service.SecurityService;
 
 /**

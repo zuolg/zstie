@@ -16,11 +16,11 @@
   <header class="main-header">
 
     <!-- Logo -->
-    <a href="index2.html" class="logo">
+    <a href="#" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>A</b>LT</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Admin</b>LTE</span>
+      <span class="logo-lg"><b>后台管理</b></span>
     </a>
 
     <!-- Header Navbar -->
@@ -32,41 +32,7 @@
       <!-- Navbar Right Menu -->
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
-          <!-- Messages: style can be found in dropdown.less-->
-          <li class="dropdown messages-menu">
-            <!-- Menu toggle button -->
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <i class="fa fa-envelope-o"></i>
-              <span class="label label-success">4</span>
-            </a>
-            <ul class="dropdown-menu">
-              <li class="header">You have 4 messages</li>
-              <li>
-                <!-- inner menu: contains the messages -->
-                <ul class="menu">
-                  <li><!-- start message -->
-                    <a href="#">
-                      <div class="pull-left">
-                        <!-- User Image -->
-                        <img src="/pc/images/user2-160x160.jpg" class="img-circle" alt="User Image">
-                      </div>
-                      <!-- Message title and timestamp -->
-                      <h4>
-                        Support Team
-                        <small><i class="fa fa-clock-o"></i> 5 mins</small>
-                      </h4>
-                      <!-- The message -->
-                      <p>Why not buy a new awesome theme?</p>
-                    </a>
-                  </li>
-                  <!-- end message -->
-                </ul>
-                <!-- /.menu -->
-              </li>
-              <li class="footer"><a href="#">See All Messages</a></li>
-            </ul>
-          </li>
-          <!-- /.messages-menu -->
+           
 
           <!-- Notifications Menu -->
           <li class="dropdown notifications-menu">
@@ -76,19 +42,19 @@
               <span class="label label-warning">10</span>
             </a>
             <ul class="dropdown-menu">
-              <li class="header">You have 10 notifications</li>
+              <li class="header">您有10调通知</li>
               <li>
                 <!-- Inner Menu: contains the notifications -->
                 <ul class="menu">
                   <li><!-- start notification -->
                     <a href="#">
-                      <i class="fa fa-users text-aqua"></i> 5 new members joined today
+                      <i class="fa fa-users text-aqua"></i> 5条最新通知
                     </a>
                   </li>
                   <!-- end notification -->
                 </ul>
               </li>
-              <li class="footer"><a href="#">View all</a></li>
+              <li class="footer"><a href="#">查看所有</a></li>
             </ul>
           </li>
           <!-- Tasks Menu -->
@@ -96,10 +62,10 @@
             <!-- Menu Toggle Button -->
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <i class="fa fa-flag-o"></i>
-              <span class="label label-danger">9</span>
+              <span class="label label-danger">2</span>
             </a>
             <ul class="dropdown-menu">
-              <li class="header">You have 9 tasks</li>
+              <li class="header">你有2条任务</li>
               <li>
                 <!-- Inner menu: contains the tasks -->
                 <ul class="menu">
@@ -107,7 +73,7 @@
                     <a href="#">
                       <!-- Task title and progress text -->
                       <h3>
-                        Design some buttons
+                        	任务情况
                         <small class="pull-right">20%</small>
                       </h3>
                       <!-- The progress bar -->
@@ -123,55 +89,11 @@
                 </ul>
               </li>
               <li class="footer">
-                <a href="#">View all tasks</a>
+                <a href="#">查看所有任务</a>
               </li>
             </ul>
           </li>
-          <!-- User Account Menu -->
-          <li class="dropdown user user-menu">
-            <!-- Menu Toggle Button -->
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <!-- The user image in the navbar-->
-              <img src="/pc/images/user2-160x160.jpg" class="user-image" alt="User Image">
-              <!-- hidden-xs hides the username on small devices so only the image appears. -->
-              <span class="hidden-xs">Alexander Pierce</span>
-            </a>
-            <ul class="dropdown-menu">
-              <!-- The user image in the menu -->
-              <li class="user-header">
-                <img src="/pc/images/user2-160x160.jpg" class="img-circle" alt="User Image">
-
-                <p>
-                  Alexander Pierce - Web Developer
-                  <small>Member since Nov. 2012</small>
-                </p>
-              </li>
-              <!-- Menu Body -->
-              <li class="user-body">
-                <div class="row">
-                  <div class="col-xs-4 text-center">
-                    <a href="#">Followers</a>
-                  </div>
-                  <div class="col-xs-4 text-center">
-                    <a href="#">Sales</a>
-                  </div>
-                  <div class="col-xs-4 text-center">
-                    <a href="#">Friends</a>
-                  </div>
-                </div>
-                <!-- /.row -->
-              </li>
-              <!-- Menu Footer-->
-              <li class="user-footer">
-                <div class="pull-left">
-                  <a href="#" class="btn btn-default btn-flat">Profile</a>
-                </div>
-                <div class="pull-right">
-                  <a href="#" class="btn btn-default btn-flat">Sign out</a>
-                </div>
-              </li>
-            </ul>
-          </li>
+          
           <!-- Control Sidebar Toggle Button -->
           <li>
             <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
@@ -189,10 +111,10 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="/pc/images/user2-160x160.jpg" class="img-circle" alt="User Image">
+          <img src="/pc/images/avatar5.png" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>Alexander Pierce</p>
+          <p>系统管理员</p>
           <!-- Status -->
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
@@ -201,7 +123,7 @@
       <!-- search form (Optional) -->
       <form action="#" method="get" class="sidebar-form">
         <div class="input-group">
-          <input type="text" name="q" class="form-control" placeholder="Search...">
+          <input type="text" name="q" class="form-control" placeholder="搜索...">
               <span class="input-group-btn">
                 <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
                 </button>
@@ -212,60 +134,175 @@
 
       <!-- Sidebar Menu -->
       <ul class="sidebar-menu">
-        <li class="header">HEADER</li>
+        <li class="header">菜单</li>
         <!-- Optionally, you can add icons to the links -->
-        <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Link</span></a></li>
-        <li><a href="#"><i class="fa fa-link"></i> <span>Another Link</span></a></li>
+        <!-- 文章 -->
         <li class="treeview">
-          <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
+          <a href="#"><i class="fa fa-file-text-o"></i> <span>文章</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#">Link in level 2</a></li>
-            <li><a href="#">Link in level 2</a></li>
+             <li id="list">
+                <a href="#" onclick="go(this);" goUrl="/admin/allArticle?m=article&amp;p=article&amp;c=list">所有文章</a>
+            </li>
+            <li id="edit">
+                <a href="#" onclick="go(this);" goUrl="/admin/editArticle?m=article&amp;p=article&amp;c=edit">撰写文章</a>
+            </li>
+            <li id="category">
+                <a href="#" onclick="go(this);" goUrl="/admin/category?m=article&amp;t=category&amp;p=article&amp;c=category">分类</a>
+            </li>
+            <li id="feature">
+                <a href="#" onclick="go(this);" goUrl="/admin/feature?m=article&amp;t=feature&amp;p=article&amp;c=feature">专题</a>
+            </li>
+            <li id="tag">
+                <a href="#" onclick="go(this);" goUrl="/admin/tag?m=article&amp;t=tag&amp;p=article&amp;c=tag">标签</a>
+            </li>
+            <li id="comment">
+                <a href="#" onclick="go(this);" goUrl="/admin/comment?t=comment&amp;m=article&amp;p=article&amp;c=comment">评论</a>
+            </li>
           </ul>
         </li>
+        <!-- ./文章 -->
+        
+        <!-- 页面 -->
+        <li class="treeview">
+          <a href="#"><i class="fa fa-sticky-note"></i> <span>页面</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li id="list">
+                <a href="#" onclick="go(this);" goUrl="/admin/allPage?m=page&amp;p=page&amp;c=list">所有页面</a>
+            </li>
+            <li id="edit">
+                <a href="#" onclick="go(this);" goUrl="/admin/newPage?m=page&amp;p=page&amp;c=edit">新建页面</a>
+            </li>
+           
+          </ul>
+        </li>
+        <!-- ./页面 -->
+        
+        <!-- 附件 -->
+        <li class="treeview">
+          <a href="#"><i class="fa fa-file-image-o"></i><span>附件</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li id="list">
+                <a href="#" onclick="go(this);" goUrl="/admin/allAttachment?p=attachment&amp;c=list">所有附件</a>
+            </li>
+            <li id="upload">
+                <a href="#" onclick="go(this);" goUrl="/admin/upload?p=attachment&amp;c=upload">上传</a>
+            </li>
+          </ul>
+        </li>
+        <!-- ./附件 -->
+        
+        <!-- 用户 -->
+        <li class="treeview">
+          <a href="#"><i class="fa fa-user"></i><span>用户</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li id="list">
+                <a href="#" onclick="go(this);" goUrl="/admin/allUser?p=user&amp;c=list">所有用户</a>
+            </li>
+            <li id="edit">
+                <a href="#" onclick="go(this);" goUrl="/admin/addUser?p=user&amp;c=edit">添加</a>
+            </li>
+            <li id="info">
+                <a href="#" onclick="go(this);" goUrl="/admin/userInfo?p=user&amp;c=info">我的资料</a>
+            </li>
+          </ul>
+        </li>
+        <!-- ./用户 -->
+        
+        <!-- 模版 -->
+        <li class="treeview">
+          <a href="#"><i class="fa fa-magic"></i><span>模版</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li id="list">
+                <a href="#" onclick="go(this);" goUrl="/admin/welcome?p=template&amp;c=list">所有模板</a>
+            </li>
+            <li id="install">
+                <a href="#" onclick="go(this);" goUrl="/admin/welcome?p=template&amp;c=install">模板安装</a>
+            </li>
+            <li id="menu">
+                <a href="#" onclick="go(this);" goUrl="/admin/welcome?p=template&amp;c=menu">菜单</a>
+            </li>
+            <li id="setting">
+                <a href="#" onclick="go(this);" goUrl="/admin/welcome?p=template&amp;c=setting">设置</a>
+            </li>
+            <li id="edit">
+                <a href="#" onclick="go(this);" goUrl="/admin/welcome?p=template&amp;c=edit">编辑</a>
+            </li>
+        </ul>
+        </li>
+        <!-- ./模版 -->
+        
+        <!-- 设置 -->
+        <li class="treeview">
+          <a href="#"><i class="fa fa-cog"></i> <span>设置</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li id="list">
+                <a href="#" onclick="go(this);" goUrl="/admin/option?p=option&amp;c=list">常规</a>
+            </li>
+            <li id="edit">
+                <a href="#" onclick="go(this);" goUrl="/admin/welcome?p=option&amp;c=edit">评论</a>
+            </li>
+            <li id="n">
+                <a href="#" onclick="go(this);" goUrl="/admin/welcome?p=option&amp;c=n">通知</a>
+            </li>
+            <li id="seo">
+                <a href="#" onclick="go(this);" goUrl="/admin/welcome?p=option&amp;c=seo">SEO</a>
+            </li>
+            <li id="watermark">
+                <a href="#" onclick="go(this);" goUrl="/admin/welcome?p=option&amp;c=watermark">水印</a>
+            </li>
+            <li id="url">
+                <a href="#" onclick="go(this);" goUrl="/admin/welcome?p=option&amp;c=url">连接形式</a>
+            </li>
+            <li id="reg">
+                <a href="#" onclick="go(this);" goUrl="/admin/welcome?p=option&amp;c=reg">登录注册</a>
+            </li>
+            <li id="cdn">
+                <a href="#" onclick="go(this);" goUrl="/admin/welcome?p=option&amp;c=cdn">CDN加速</a>
+            </li>
+            <li id="api">
+                <a href="#" onclick="go(this);" goUrl="/admin/welcome?p=option&amp;c=api">API应用</a>
+            </li>
+          </ul>
+        </li>
+        <!-- ./设置 --> 
       </ul>
       <!-- /.sidebar-menu -->
     </section>
     <!-- /.sidebar -->
   </aside>
 
-  <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <h1>
-        Page Header
-        <small>Optional description</small>
-      </h1>
-      <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
-        <li class="active">Here</li>
-      </ol>
-    </section>
-
-    <!-- Main content -->
-    <section class="content">
-
-      <!-- Your Page Content Here -->
-
-    </section>
-    <!-- /.content -->
+  <!-- Content Wrapper. Contains page content --> 
+  <div class="content-wrapper"  id="pageContent">
+	<#include "/admin/welcome.ftl"/>
   </div>
   <!-- /.content-wrapper -->
 
   <!-- Main Footer -->
-  <footer class="main-footer">
-    <!-- To the right -->
-    <div class="pull-right hidden-xs">
-      Anything you want
-    </div>
-    <!-- Default to the left -->
-    <strong>Copyright &copy; 2016 <a href="#">Company</a>.</strong> All rights reserved.
-  </footer>
+  <#include "/inc/_footer.ftl"/>
 
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">
@@ -278,39 +315,11 @@
     <div class="tab-content">
       <!-- Home tab content -->
       <div class="tab-pane active" id="control-sidebar-home-tab">
-        <h3 class="control-sidebar-heading">Recent Activity</h3>
-        <ul class="control-sidebar-menu">
-          <li>
-            <a href="javascript::;">
-              <i class="menu-icon fa fa-birthday-cake bg-red"></i>
-
-              <div class="menu-info">
-                <h4 class="control-sidebar-subheading">Langdon's Birthday</h4>
-
-                <p>Will be 23 on April 24th</p>
-              </div>
-            </a>
-          </li>
-        </ul>
+        <h3 class="control-sidebar-heading">说明</h3>
+        
         <!-- /.control-sidebar-menu -->
 
-        <h3 class="control-sidebar-heading">Tasks Progress</h3>
-        <ul class="control-sidebar-menu">
-          <li>
-            <a href="javascript::;">
-              <h4 class="control-sidebar-subheading">
-                Custom Template Design
-                <span class="pull-right-container">
-                  <span class="label label-danger pull-right">70%</span>
-                </span>
-              </h4>
-
-              <div class="progress progress-xxs">
-                <div class="progress-bar progress-bar-danger" style="width: 70%"></div>
-              </div>
-            </a>
-          </li>
-        </ul>
+        
         <!-- /.control-sidebar-menu -->
 
       </div>
@@ -321,16 +330,16 @@
       <!-- Settings tab content -->
       <div class="tab-pane" id="control-sidebar-settings-tab">
         <form method="post">
-          <h3 class="control-sidebar-heading">General Settings</h3>
+          <h3 class="control-sidebar-heading">全局配置</h3>
 
           <div class="form-group">
             <label class="control-sidebar-subheading">
-              Report panel usage
+             	用户配置项
               <input type="checkbox" class="pull-right" checked>
             </label>
 
             <p>
-              Some information about this general settings option
+              	配置说明
             </p>
           </div>
           <!-- /.form-group -->
@@ -347,6 +356,7 @@
   <!-- _script -->
   <#include "/inc/_script.ftl"/>
   <!-- / _script -->
+  
 
 </body>
 </html>

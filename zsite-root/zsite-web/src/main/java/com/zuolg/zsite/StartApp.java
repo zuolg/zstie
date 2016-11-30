@@ -8,7 +8,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * 启动程序
  * </pre>
  * 
- * @author 梁韦江
  * @date 2016年6月2日
  */
 @SpringBootApplication
