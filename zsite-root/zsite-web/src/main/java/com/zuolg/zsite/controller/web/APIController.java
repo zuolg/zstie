@@ -1,4 +1,4 @@
-package com.zuolg.zsite.web.controller;
+package com.zuolg.zsite.controller.web;
 
 import javax.annotation.PostConstruct;
 import javax.servlet.http.HttpServletRequest;
@@ -8,9 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.zuolg.commons.apiServer.adapter.AjaxAdapter;
+import com.zuolg.commons.apiServer.adapter.ApiServerAdapter;
 import com.zuolg.commons.apiServer.beans.ApiMethodInfo;
-import com.zuolg.commons.apiServer.beans.ApiServerInitException;
+import com.zuolg.commons.exception.ApiServerInitException;
 import com.zuolg.commons.exception.BaseApiException;
 import com.zuolg.zsite.api.inf.IUser;
 
@@ -22,7 +22,7 @@ import com.zuolg.zsite.api.inf.IUser;
  */
 @RestController
 @RequestMapping("/api")
-public class APIController extends AjaxAdapter {
+public class APIController extends ApiServerAdapter {
 
 	private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(APIController.class);
 

@@ -12,7 +12,7 @@ import javax.persistence.Table;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
-import com.zuolg.commons.apiServer.beans.AComment;
+import com.zuolg.commons.annotation.AComment;
 
 
 /** 内容表，用于存放比如文章、帖子、商品、问答等用户自定义模型内容。也用来存放比如菜单、购物车、消费记录等系统模型。 */

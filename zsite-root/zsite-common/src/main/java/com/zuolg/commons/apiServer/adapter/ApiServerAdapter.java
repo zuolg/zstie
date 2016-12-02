@@ -28,7 +28,7 @@ import com.zuolg.commons.utils.StringUtils;
  * </pre>
  * 
  */
-public abstract class AjaxAdapter extends BaseApiServerAdapter {
+public abstract class ApiServerAdapter extends BaseApiServerAdapter {
 
 	private final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(this.getClass());
 

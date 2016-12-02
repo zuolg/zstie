@@ -6,9 +6,9 @@ import java.util.List;
 
 import org.springframework.web.multipart.MultipartFile;
 
+import com.zuolg.commons.annotation.AComment;
 import com.zuolg.commons.annotation.api.AClass;
 import com.zuolg.commons.annotation.api.AMock;
-import com.zuolg.commons.apiServer.beans.AComment;
 import com.zuolg.commons.apiServer.beans.FindInferfaceResult;
 import com.zuolg.commons.apiServer.vo.MethodParamVo;
 import com.zuolg.commons.utils.OpenTypeUtil;

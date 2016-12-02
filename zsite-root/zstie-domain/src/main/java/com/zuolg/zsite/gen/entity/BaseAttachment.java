@@ -12,7 +12,7 @@ import javax.persistence.Table;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
-import com.zuolg.commons.apiServer.beans.AComment;
+import com.zuolg.commons.annotation.AComment;
 
 
 /** 附件表，用于保存用户上传的附件内容。 */

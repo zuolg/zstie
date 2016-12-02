@@ -1,4 +1,4 @@
-package com.zuolg.zsite.web.controller;
+package com.zuolg.zsite.controller.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

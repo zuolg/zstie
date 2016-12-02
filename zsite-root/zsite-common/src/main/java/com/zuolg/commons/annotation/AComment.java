@@ -1,4 +1,4 @@
-package com.zuolg.commons.apiServer.beans;
+package com.zuolg.commons.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

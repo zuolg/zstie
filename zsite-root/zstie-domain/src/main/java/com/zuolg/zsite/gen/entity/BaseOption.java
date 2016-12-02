@@ -9,7 +9,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import com.zuolg.commons.apiServer.beans.AComment;
+import com.zuolg.commons.annotation.AComment;
 
 
 

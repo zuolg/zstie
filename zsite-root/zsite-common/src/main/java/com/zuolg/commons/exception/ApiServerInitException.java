@@ -1,4 +1,4 @@
-package com.zuolg.commons.apiServer.beans;
+package com.zuolg.commons.exception;
 
 /**
  * <pre>

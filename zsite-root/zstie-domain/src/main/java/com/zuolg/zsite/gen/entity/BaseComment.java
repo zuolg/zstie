@@ -12,7 +12,7 @@ import javax.persistence.Table;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
-import com.zuolg.commons.apiServer.beans.AComment;
+import com.zuolg.commons.annotation.AComment;
 
 
 /** 评论表，用于保存content内容的回复、分享、推荐等信息。 */

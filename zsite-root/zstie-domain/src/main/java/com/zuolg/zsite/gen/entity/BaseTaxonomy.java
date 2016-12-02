@@ -12,7 +12,7 @@ import javax.persistence.Table;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
-import com.zuolg.commons.apiServer.beans.AComment;
+import com.zuolg.commons.annotation.AComment;
 
 
 /** 分类表。标签、专题、类别等都属于taxonomy。 */

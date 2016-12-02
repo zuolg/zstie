@@ -1,6 +1,6 @@
 package com.zuolg.commons.apiServer.adapter;
 
-import com.zuolg.commons.apiServer.beans.ApiServerInitException;
+import com.zuolg.commons.exception.ApiServerInitException;
 
 /**
  * <pre>

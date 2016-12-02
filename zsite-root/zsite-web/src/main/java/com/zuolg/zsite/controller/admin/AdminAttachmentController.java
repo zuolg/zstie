@@ -1,4 +1,4 @@
-package com.zuolg.zsite.admin.controller;
+package com.zuolg.zsite.controller.admin;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -14,16 +14,16 @@ import com.zuolg.zsite.constants.ActionsForSide;
 import com.zuolg.zsite.service.SecurityService;
 
 /**
- * 其它页面
- * @ClassName AdminOtherController
+ * 附件
+ * @ClassName AdminAttachmentController
  * @author zuolangguo
- * @date 2016年11月24日 上午11:52:56
+ * @date 2016年11月24日 上午11:49:28
  */
 @Controller
 @RequestMapping(value = ActionsForSide.ADMIN)
-public class AdminOtherController {
+public class AdminAttachmentController {
 
-	private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AdminOtherController.class);
+	private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AdminAttachmentController.class);
 
 	@Value("${jmx.port}")
 	private int jmxPort;
@@ -32,18 +32,18 @@ public class AdminOtherController {
 	private SecurityService securityService;
 
 	/**
-	 * 设置
-	 * @Title:option
+	 * 所有附件
+	 * @Title:allattachment
 	 * @param req
 	 * @param resp
 	 * @param model
 	 * @return
 	 * ModelAndView
 	 */
-	@RequestMapping(value = ActionsForSide.ADMIN_OPTION)
-	public ModelAndView option(HttpServletRequest req, HttpServletResponse resp, Model model) {
+	@RequestMapping(value = ActionsForSide.ADMIN_ALLATTACHMENT)
+	public ModelAndView allattachment(HttpServletRequest req, HttpServletResponse resp, Model model) {
 
-		return new ModelAndView("admin/option");
+		return new ModelAndView("admin/allattachment");
 	}
 
 

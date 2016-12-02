@@ -1,4 +1,4 @@
-package com.zuolg.zsite.web.controller;
+package com.zuolg.zsite.controller.web;
 
 import java.io.IOException;
 

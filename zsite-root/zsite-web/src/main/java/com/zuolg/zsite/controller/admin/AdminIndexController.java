@@ -1,4 +1,4 @@
-package com.zuolg.zsite.admin.controller;
+package com.zuolg.zsite.controller.admin;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
